@@ -1,0 +1,17 @@
+.navbar.navbar-default(role='navigation')
+  .container
+    .navbar-header
+      button.navbar-toggle(data-toggle='collapse', data-target='#bs-navbar-collapse')
+        span.sr-only Toggle navigation
+        span.icon-bar
+        span.icon-bar
+        span.icon-bar
+      a.navbar-brand(href='/') Road Trip
+        .glyphicon.glyphicon-globe.btn-sm
+    .collapse.navbar-collapse#bs-navbar-collapse
+      ul.nav.navbar-nav.navbar-right
+        li: a(href='/new') New Trip
+        li: a(href='#') About
+        li: a(href='#') Faq
+        li: a(href='#') Contact
+
